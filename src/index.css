@@ -5,10 +5,27 @@
   --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
   --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
 
-  --color-brand: var(--color-cyan-500);
-  --color-surface-bg: var(--color-slate-950);
-  --color-surface-card: var(--color-slate-900);
-  --color-surface-muted: var(--color-slate-800);
-  --color-border-main: var(--color-slate-800);
+  /* Brand Colors */
+  --color-brand: #EAB308; /* Yellow 500 */
+  --color-brand-hover: #FACC15; /* Yellow 400 */
+  
+  /* System Surfaces - Dark Mode (Default) */
+  --color-surface-bg: #000000;
+  --color-surface-card: #0A0A0A;
+  --color-surface-muted: #171717;
+  --color-border-main: #262626;
+
+  /* Text Colors */
+  --color-text-main: #FFFFFF;
+  --color-text-dim: #737373;
+}
+
+.light-theme {
+  --color-surface-bg: #FAFAFA;
+  --color-surface-card: #FFFFFF;
+  --color-surface-muted: #F5F5F5;
+  --color-border-main: #E5E5E5;
+  --color-text-main: #000000;
+  --color-text-dim: #525252;
 }
 
