@@ -1,0 +1,8 @@
+{
+  "name": "MR.WASH X Attendance",
+  "description": "Automatic attendance tracking system for MR.WASH X car wash business using geofencing and live location monitoring.",
+  "requestFramePermissions": [
+    "geolocation"
+  ],
+  "majorCapabilities": []
+}
